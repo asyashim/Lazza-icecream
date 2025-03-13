@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazza Ice Creams | Buy Ice Cream Online</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- -------------------------HEADER SECTION---------------------------- -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-md-12 col-lg-12">
+                    <nav class="navbar navbar-expand-lg text-white">
+                        <!-- <div class="container-fluid"> -->
+                          <a class="navbar-brand" href="#"><img src="assets/logo.png" style="width: 100px; height: 50px;"></a>
+                          <button class="navbar-toggler collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <form>
+                            <label class="fs-6">Select Delivery Location</label><br>
+                            <select class="select2 select2-hidden-accessible fs-6 border-0 rounded" name="locations" onchange="filterwithpincode(this.value)" data-select2-id="select2-data-1-tjhk" tabindex="-1" aria-hidden="true">
+                                <option value="">Select</option>
+                                <option value="683572">683572|Angamally</option>
+                                <option value="683573">683573|Angamally South</option>
+                                <option value="683574">683574|Kalady</option>
+                                <option value="682033">682033|Changampuzha Nagar</option>                                         
+                                <option value="682017">682017|Kaloor</option>
+                                <option value="682018">682018|Ernakulam North</option>
+                                <option value="682019">682019|Vyttila</option>
+                                <option value="682020" selected="" data-select2-id="select2-data-3-gs4x">682020|Kadavanthara</option>                                                                                                           
+                            </select>
+                          </form>
+                          <!-- <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button> -->
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item text-white">
+                                  <a class="nav-link " aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">ABOUT</a>
+                                  <div class="v1"></div>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">OFFERS</a>
+                                  <div class="v1"></div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PRODUCTS</a>
+                                    <div class="v1"></div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CONTACT</a>
+                                    <div class="v1"></div>
+                                </li>
+                              </ul>
+                          </div>
+                        <!-- </div> -->
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- --------------------SECTION 1------------------------------ -->
+     <section>
+        <div class="videocontainer bg-dark">
+            <video id="SectionVideo" autoplay muted>
+                <source src="assets/videoplayback21.mp4" type="">
+            </video>
+        </div>
+     </section>
+
+     <!-- ---------------------------SECTION 2---------------------------------- -->
+    <section class="topsellingproducts">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Top Selling Products</h2>
+                <!-- <div class="col-md-3 col-lg-3">
+                    <h2>Top Selling Products</h2>
+                </div> -->
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image1.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">big chocobar easy pack-75ml</h5>
+                          <h5 class="fw-bold">RS:30</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image2.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">unicone butterscotch 120ML - 120ml</h5>
+                          <h5 class="fw-bold">RS:40</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image4.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">big mango duble easy pack - 75ml</h5>
+                          <h5 class="fw-bold">RS:28 <span class="text-decoration-line-through">RS:30</span></h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image6.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">unicon chocolate-120ml</h5>
+                          <h5 class="fw-bold">RS:50</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image7.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">american bar fun pack - 75ml</h5>
+                          <h5 class="fw-bold">RS:50</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image11.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">sundae-100ml</h5><br>
+                          <h5 class="fw-bold">RS:30</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image1.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">big raspberry duble easy pack - 75ml</h5>
+                          <h5 class="fw-bold">RS:30</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-12">
+                    <div class="card text-center border-0" style="width: 100%;">
+                        <img src="./assets/image2.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">big greenapple duble easy pack-75ml</h5>
+                          <h5 class="fw-bold">RS:30</h5>
+                          <a href="#" class="btn btn-danger">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+                <div class="ButtonShow text-center pb-4">
+                    <button class="btn btn-danger mx-auto" type="button">Show more</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ---------------------------------SECTION 3--------------------------------------- -->
+
+    <section class="storysection">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-6">
+                    <img src="assets/limage9.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h3>The Lazza Story..</h3>
+                    <p>
+                        The Company was founded in 1972 by Mr. M C John a retired senior bureaucrat in the Kerala government.
+                         It is currently led by Mr. Simon John and his team of eminent directors. The company is a pioneer in the 
+                         ice cream industry in South India. The first factory was started in Kochi and today has over 10 factories
+                          and other ancilliary units spread across South India. The 10 factories put together has a production
+                           capacity that is among the top 5 in the country. The company also has brand experience centres in Ernakulam
+                           , Alapuzha, Kottayam and Trissur districts of Kerala and Mangalore district of KarnatakaThe company overseas operations in parts of Middle East and Africa.
+                    </p>
+                    <p>
+                        The 10 factories put together has a production capacity that is among the top 5 in the country.
+                         The company also has brand experience centres in Ernakulam, Alapuzha, Kottayam and Trissur
+                          districts of Kerala and Mangalore district of KarnatakaThe company overseas operations in parts
+                           of Middle East and Africa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------SECTION 4--------------------------------------- -->
+    <section class="OffercardSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-3">
+                    <div class="offers-card">
+                        <img src="assets/limage10.png" class="img-fluid rounded" loading="lazy"  alt="...">
+                        <div class="offers-card-content">
+                            <h6 class="fw-light fs-2">Lazza Select </h6>
+                            <h3>Beyond350</h3>
+                            <p class="fs-2 fw-light">Beyond350</p>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-lg-6 pt-3">
+                    <div class="offers-card">
+                        <img class="img-fluid rounded" loading="lazy" src="assets/limage10.png"alt="About 1">
+                          <div class="offers-card-content">
+                            <h6 class="fs-2 fw-light">Lazza Select</h6>
+                            <h3>ComeBackBonus</h3>
+                            <p class="fs-2 fw-light">Come Back Bonus</p>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------SECTION 5----------------------------------- -->
+     <section class="NewsSection">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-7 col-sm-9 col-lg-9 w-100%">
+                    <marquee>News: Lazza Introducing vanilla cone ice-creams | Lazza Launched New Jack Fruit Ice Cream!
+                    </marquee>
+                </div>
+                <div class="col-5 col-sm-3 col-lg-3 w-100%">
+                    <div class="Iconesection">
+                        <a href="#">
+                            <img src="assets/icon1.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/icon2.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/icon3.png" alt="">
+                            <span class="cart-count" id="cntcart">0</span>
+                        </a>
+                        <a href="#" id="refericon">
+                            <img src="assets/icon4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- ------------------------FOOTER-------------------------------------- -->
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 pt-4">
+                    <a href="#" class="Simonslogo">
+                        <img src="./Assets/Images/simons.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <h4 class="pt-4">HELP</h4>
+                    <ul class="pt-2">
+                        <li><a href="">Track Your Order</a></li>
+                        <li><a href="">Chat With Us</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4 class="pt-4">ABOUT US</h4>
+                    <ul class="pt-2">
+                        <li><a href="">Our History</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4 class="pt-4">PRODUCTS</h4>
+                    <ul class="pt-2">
+                        <li><a href="">Our Products</a></li>
+                        <li><a href="">Offers</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Wants to be a Distributer?</a></li>
+                        <li><a href="">Cotact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 ">
+                    <h4 class="pt-4">CONTACT US</h4>
+                    <ul class="pt-2">
+                        <li><a href="">9946037777</a></li>
+                        <li><a href="">support@lazza.co.in</a></li>
+                       
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-2 pt-4">
+                    <a href="#" class="footerlogo pt-4">
+                        <img src="assets/limage21.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+      </footer>
+      
+    
+    <!-- ------------------------------------BOOTSTRAP------------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

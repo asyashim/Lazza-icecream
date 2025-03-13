@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+header{
+    background: #402C37;
+    /* height: 80px; */
+}
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.collapse ul li a{
+    color: white;
+}
+#navbarSupportedContent{
+    position: absolute;
+    right: 20px;
+}
+form{
+    position: absolute;
+    left: 120px;
+}
+.select2{
+    background-color: rgb(194, 188, 206);
+    width: 280px;
+    height: 25px;
+}
+.v1{
+    border-right: .5px solid rgb(247, 238, 238);
+    height: 15px;
+    top: 12px;
+    position: absolute;
+}
+
+/* -------------------------SECTION 1--------------------- */
+
+.videocontainer{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+#SectionVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* ---------------------SECTION 2------------------------- */
+.card{
+    background-image: url(./Assets/Images/cardbg.png);
+    padding: 20px;
+    background-size: cover;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    position: relative;
+    margin-right: 20px;
+}
+.topsellingproducts{
+    padding: 40px 0px;
+}
+.topsellingproducts h2{
+    /* padding-left: 400px; */
+    padding-bottom: 35px;
+    font-size: 37px;
+}
+.topsellingproducts img{
+    max-height: 200px;
+}
+.topsellingproducts .col-lg-3{
+    width: 25%;
+}
+
+/* ---------------------SECTION 3----------------------------- */
+
+.storysection img{
+    width: 90%;
+}
+.storysection{
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.storysection h3{
+    font-size: 34px;
+}
+.storysection p{
+    font-size: 15px;
+}
+/* -----------------------------SECTION 4------------------- */
+.OffercardSection{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.offers-card-content{
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    justify-content: center;
+    left: 25px;
+}
+/* .offers-card-content p{
+    font-size: 38px;
+    font-weight: 0;
+} */
+.offers-card-content h6{
+    font-size: 30px;
+}
+.offers-card-content h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+.offers-card{
+    position: relative;
+    border-radius: 8px;
+}
+/* ------------------SECTION 5------------------- */
+.NewsSection{
+    background-color: #402C37;
+    position: sticky;
+    bottom: 0px;
+    z-index: 9;
+    padding: 10px 0px;
+}
+.NewsSection .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+marquee{
+    color: #fcd002
+}
+.Iconesection{
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+}
+.Iconesection a img{
+    width: 23px;
+    height: 25px;
+}
+#refericon img{
+    width: 25px;
+    height: 30px;
+}
+#cntcart{
+    background: #FF1800;
+    color: white;
+    text-decoration: none;
+    width: 20px;
+    height:20px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    /* right: -20px; */
+    right: 152px;
+}
+
+/* ----------------------FOOTER--------------------------- */
+footer{
+    background-color: black;
+    color: #fcd002;
+    padding: 40px 0px;
+    /* display: flex; */
+}
+
+.Simonslogo img{
+    width: 100%;
+    max-width: 150px;
+}
+.socialicons{
+    display: flex;
+}
+.waicon a img{
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    z-index: 10000;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer ul li{
+    padding-left: -10px;
+}
+footer ul li a{
+    color: #fcd002;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    margin-top: 10px;
+    display: block;
+}
+footer h5{
+    margin-bottom: 20px;
+}
+.footerlogo img{
+    width: 100%;
+    max-width: 150px;
+}
